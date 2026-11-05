@@ -1,0 +1,19 @@
+requirement_id,section,category,portal,statement,priority,status,version,test_case_id,tags,source_file,source_section
+DEMO-REQ-001,1.1,Account Management,Organisation Portal,An organisation administrator shall be able to create a user account with a unique email address.,Must,Approved,v1.0,TS-001,Onboarding,SAMPLE_PROPOSAL.md,Section 1.1
+DEMO-REQ-002,1.2,Account Management,Organisation Portal,Only user accounts with Active status shall be permitted to sign in.,Must,Approved,v1.0,TS-002,Access control,SAMPLE_PROPOSAL.md,Section 1.2
+DEMO-REQ-003,1.3,Account Management,Organisation Portal,An organisation administrator shall be able to deactivate an existing user account.,Must,Approved,v1.0,TS-003,Lifecycle,SAMPLE_PROPOSAL.md,Section 1.3
+DEMO-REQ-004,2.1,Roles & Permissions,Organisation Portal,An organisation administrator shall be able to create and edit roles and their permitted actions.,Must,Approved,v1.0,TS-004,RBAC,SAMPLE_PROPOSAL.md,Section 2.1
+DEMO-REQ-005,2.2,Roles & Permissions,Organisation Portal,Users shall not access information belonging to another organisation.,Must,Approved,v1.1,TS-005,Tenant isolation,SAMPLE_PROPOSAL.md,Section 2.2
+DEMO-REQ-006,3.1,Agent Catalogue,Marketplace Portal,Users shall be able to filter available agents by category and keyword.,Should,Approved,v1.0,TS-006,Discovery,SAMPLE_PROPOSAL.md,Section 3.1
+DEMO-REQ-007,3.2,Agent Catalogue,Marketplace Portal,"Each catalogue entry shall display its agent name, short description and category.",Must,Approved,v1.0,TS-007,Catalogue metadata,SAMPLE_PROPOSAL.md,Section 3.2
+DEMO-REQ-008,4.1,Credit Wallet,Organisation Portal,The portal shall display purchased and promotional credit balances separately.,Must,Approved,v1.0,TS-008,Wallet display,SAMPLE_PROPOSAL.md,Section 4.1
+DEMO-REQ-009,4.2,Credit Wallet,Organisation Portal,The portal shall display a combined available credit balance calculated from purchased and promotional credits.,Must,Approved,v1.0,TS-009,Wallet calculation,SAMPLE_PROPOSAL.md,Section 4.2
+DEMO-REQ-010,4.3,Credit Wallet,Admin Portal,An authorised administrator shall be able to grant sample promotional credits to a selected organisation.,Should,In review,v1.1,TS-010,Free-credit allocation,SAMPLE_PROPOSAL.md,Section 4.3
+DEMO-REQ-011,4.4,Credit Wallet,Admin Portal,The system shall record each administrator-issued credit adjustment in a transaction log.,Must,Approved,v1.0,TS-011,Audit trail,SAMPLE_PROPOSAL.md,Section 4.4
+DEMO-REQ-012,5.1,Usage Metering,Organisation Portal,An organisation administrator shall be able to view AI request usage totals for a selected reporting period.,Should,Approved,v1.0,TS-012,Usage reporting,SAMPLE_PROPOSAL.md,Section 5.1
+DEMO-REQ-013,5.2,Usage Metering,Organisation Portal,An authorised administrator shall be able to assign a monthly usage quota to a user.,Must,Approved,v1.0,TS-013,Quota setting,SAMPLE_PROPOSAL.md,Section 5.2
+DEMO-REQ-014,6.1,Audit & Logs,Admin Portal,An authorised auditor shall be able to search administrative operation logs by date and action type.,Must,In review,v1.0,TS-014,Operation audit,SAMPLE_PROPOSAL.md,Section 6.1
+DEMO-REQ-015,6.2,Audit & Logs,Admin Portal,"Every log record shall include an event timestamp, actor and action.",Must,Approved,v1.0,TS-015,Audit fields,SAMPLE_PROPOSAL.md,Section 6.2
+DEMO-REQ-016,7.1,Wishlist,Marketplace Portal,The portal could allow users to save favourite agents for quick access.,Could,Wishlist,v0.1,TS-016,Wishlist only,SAMPLE_PROPOSAL.md,Section 7.1
+DEMO-REQ-017,7.2,Wishlist,Marketplace Portal,The portal could support a comparison view for up to three agents.,Could,Wishlist,v0.1,TS-017,Wishlist only,SAMPLE_PROPOSAL.md,Section 7.2
+DEMO-REQ-018,8.1,Non-Functional,All Portals,The interface shall communicate validation errors beside the affected form field.,Must,Approved,v1.0,TS-018,Form quality,SAMPLE_PROPOSAL.md,Section 8.1
